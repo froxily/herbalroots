@@ -2,6 +2,8 @@
 
 HerbalRoots is an Ayurvedic hair-care education website for the CSET489 Search Engine Optimization mini-project. It includes a botanical library, a hair-care journal, and a searchable demonstration catalogue with local shopping bag and enquiry flows.
 
+[Visit the live HerbalRoots site](https://froxily.github.io/herbalroots/)
+
 The site is an academic demonstration. The catalogue and forms illustrate a website experience. Form entries and bag contents stay in the browser. The site offers no purchases or payment processing.
 
 ## Stack and SEO
@@ -29,6 +31,8 @@ GitHub Actions builds and deploys on pushes to `main` and supports manual dispat
 - [SEO baseline](docs/SEO_BASELINE.md)
 - [SEO implementation](docs/SEO_IMPLEMENTATION.md)
 - [Local verification](docs/SEO_TEST_RESULTS.md)
+- [Deployment report](docs/DEPLOYMENT_REPORT.md)
+- [Production SEO verification](docs/PRODUCTION_SEO_VERIFICATION.md)
 - [Google tools setup](docs/GOOGLE_TOOLS_SETUP.md)
 
 This React deployment is the GitHub Pages portion of the project. The academic handbook’s separate VPS and WordPress requirement is independent of this deployment.
