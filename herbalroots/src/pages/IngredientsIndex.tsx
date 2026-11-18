@@ -36,7 +36,7 @@ export const IngredientsIndex: React.FC = () => {
         {/* Ingredients Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {INGREDIENTS.map((ingredient) => (
-            <IngredientCard key={ingredient.id} ingredient={ingredient} />
+            <IngredientCard key={ingredient.id} ingredient={ingredient} headingLevel={2} />
           ))}
         </div>
 

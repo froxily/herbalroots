@@ -6,9 +6,11 @@ import { Ingredient } from '../types';
 
 interface IngredientCardProps {
   ingredient: Ingredient;
+  headingLevel?: 2 | 3;
 }
 
-export const IngredientCard: React.FC<IngredientCardProps> = ({ ingredient }) => {
+export const IngredientCard: React.FC<IngredientCardProps> = ({ ingredient, headingLevel = 3 }) => {
+  const Heading = headingLevel === 2 ? 'h2' : 'h3';
   return (
     <div className="group bg-white rounded-2xl border border-sage/40 overflow-hidden flex flex-col hover:shadow-lg transition-all duration-300">
       <Link to={`/ingredients/${ingredient.slug}/`} className="relative aspect-[4/3] overflow-hidden bg-cream/40 block">
@@ -27,9 +29,9 @@ export const IngredientCard: React.FC<IngredientCardProps> = ({ ingredient }) =>
           <p className="text-[11px] font-medium tracking-wider uppercase text-sage-light">
             {ingredient.sanskritName}
           </p>
-          <h3 className="font-serif text-xl font-bold tracking-wide">
+          <Heading className="font-serif text-xl font-bold tracking-wide">
             {ingredient.name}
-          </h3>
+          </Heading>
         </div>
       </Link>
 

@@ -36,7 +36,7 @@ export default {
           light: '#CE8461',
         },
         charcoal: '#252B25',
-        muted: '#6D756B',
+        muted: '#606A5E',
       },
       fontFamily: {
         serif: ['"DM Serif Display"', 'Georgia', 'serif'],

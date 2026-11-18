@@ -138,10 +138,8 @@
   font: 500 12px/1 Inter, system-ui, sans-serif;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: rgba(28, 61, 43, 0.8);
+  color: var(--hr-forest);
   cursor: pointer;
-  opacity: 0;
-  animation: hr-skip 4s ease forwards;
   transition: color 0.2s, border-color 0.2s, background-color 0.2s;
 }
 .hr-intro__skip:hover,
@@ -218,12 +216,6 @@
   77%, 100% { opacity: 1; transform: translateY(0); }
 }
 
-@keyframes hr-skip {
-  0%, 8% { opacity: 0; }
-  15%, 76% { opacity: 1; }
-  86%, 100% { opacity: 0; }
-}
-
 /* 3.2–4s: crossfade the overlay to reveal the homepage, which is already rendered underneath. */
 @keyframes hr-overlay {
   0% { opacity: 1; }
@@ -233,4 +225,4 @@
 
 
 /* Keep the keyboard-focused skip control visible at every point in the intro. */
-.hr-intro__skip:focus-visible { opacity: 1; animation: none; outline: 2px solid var(--hr-forest); outline-offset: 3px; }
+.hr-intro__skip:focus-visible { outline: 2px solid var(--hr-forest); outline-offset: 3px; }

@@ -293,7 +293,7 @@ export const Home: React.FC = () => {
               className="bg-white rounded-2xl p-6 border border-sage/40 flex flex-col justify-between hover:border-forest/50 hover:shadow-md transition-all group"
             >
               <div>
-                <span className="text-[10px] uppercase tracking-wider font-semibold text-terracotta block mb-1">
+                <span className="text-[10px] uppercase tracking-wider font-semibold text-terracotta-dark block mb-1">
                   {concern.doshaAffinity}
                 </span>
                 <h3 className="font-serif text-lg font-bold text-forest group-hover:text-botanical transition-colors mb-2">
@@ -307,13 +307,13 @@ export const Home: React.FC = () => {
               <div className="mt-5 pt-3 border-t border-sage/30 space-y-1.5">
                 <Link
                   to={ARTICLES.find(article => article.slug === concern.recommendedArticleSlug)?.path ?? '/blog/'}
-                  className="block text-xs font-medium text-forest hover:text-botanical transition-colors"
+                  className="block py-1 text-xs font-medium text-forest hover:text-botanical transition-colors"
                 >
                   Read the {concern.slug === 'scalp-care' ? 'wash-day' : concern.slug.replace(/-/g, ' ')} guide →
                 </Link>
                 <Link
                   to={`/shop/${concern.recommendedProductSlug}/`}
-                  className="block text-xs text-muted hover:text-forest transition-colors"
+                  className="block py-1 text-xs text-muted hover:text-forest transition-colors"
                 >
                   View Product →
                 </Link>

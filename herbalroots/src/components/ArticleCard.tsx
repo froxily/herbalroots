@@ -36,7 +36,7 @@ export const ArticleCard: React.FC<ArticleCardProps> = ({ article, featured = fa
             {article.category}
           </span>
           {article.isPillar && (
-            <span className="bg-terracotta text-white text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full shadow-sm">
+            <span className="bg-terracotta-dark text-white text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full shadow-sm">
               Pillar Guide
             </span>
           )}

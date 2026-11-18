@@ -62,7 +62,7 @@ export const HairCareRoutineSection: React.FC = () => {
                 <div className="w-12 h-12 rounded-xl bg-sage/40 text-forest flex items-center justify-center mb-6">
                   <Icon className="w-6 h-6" />
                 </div>
-                <span className="text-xs font-bold text-terracotta uppercase tracking-wider block mb-1">
+                <span className="text-xs font-bold text-terracotta-dark uppercase tracking-wider block mb-1">
                   {step.timing}
                 </span>
                 <h3 className="font-serif text-xl font-bold text-forest mb-4">
