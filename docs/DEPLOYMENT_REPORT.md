@@ -15,6 +15,8 @@ Deployed on 18 November 2026 for the CSET489 SEO mini-project.
 
 The workflow runs on pushes to `main` and on manual dispatch. The build job uses Node.js 24 and installs locked packages with `npm ci`. Then `npm run build:pages` runs TypeScript, builds the Vite assets, prerenders all routes and checks the canonical/indexing configuration. The workflow uploads only `herbalroots/dist/`. The deploy job uses the official Pages deployment action and has Pages write and OIDC token permissions.
 
+The official GitHub actions are pinned to the commit SHAs of stable releases. The Pages actions use their Node.js 24 releases.
+
 GitHub Pages supplies its configured base URL to `VITE_SITE_URL`. The build uses that value for the asset and router prefix, canonical URLs, social metadata, JSON-LD, sitemap entries and the robots sitemap reference. There is no separate publishing branch.
 
 The deliverable contains the React app, font licenses and illustration assets, and its SEO and deployment documentation. Unrelated notebooks, the dataset, and the separate WordPress and VPS files remain in the local handoff outside the public Git repository. The Git commit author uses the account’s GitHub noreply address.
