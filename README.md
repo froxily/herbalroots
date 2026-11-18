@@ -26,7 +26,7 @@ Use the local address printed by Vite. For a publishable artifact, set `VITE_SIT
 
 ## Deployment
 
-GitHub Actions builds and deploys on pushes to `main` and supports manual dispatch. The workflow reads the public URL from GitHub Pages configuration.
+GitHub Actions builds and deploy on pushes to `main` and supports manual dispatch. The workflow reads the public URL from GitHub Pages configuration.
 
 - [SEO baseline](docs/SEO_BASELINE.md)
 - [SEO implementation](docs/SEO_IMPLEMENTATION.md)
