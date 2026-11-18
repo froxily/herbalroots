@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <defs>
+    <linearGradient id="artAmlaBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B3A17" />
+      <stop offset="60%" stop-color="#2D5A27" />
+      <stop offset="100%" stop-color="#11240F" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#artAmlaBg)" />
+
+  <g transform="translate(880, 320)">
+    <!-- Amla berries with leaves -->
+    <circle cx="-60" cy="40" r="50" fill="#7BB33A" />
+    <circle cx="-70" cy="25" r="14" fill="#FFFFFF" opacity="0.4" />
+    <circle cx="30" cy="20" r="60" fill="#88C442" />
+    <circle cx="20" cy="5" r="16" fill="#FFFFFF" opacity="0.4" />
+    <circle cx="-10" cy="-40" r="55" fill="#6B9E30" />
+    <circle cx="-20" cy="-55" r="15" fill="#FFFFFF" opacity="0.4" />
+    <path d="M 60 -100 Q 140 -60 170 20" stroke="#72AA30" stroke-width="4" fill="none" />
+  </g>
+
+  <g transform="translate(100, 200)">
+    <rect x="0" y="0" width="130" height="30" rx="15" fill="#527A50" />
+    <text x="65" y="20" font-family="'Inter', sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.5">INGREDIENTS</text>
+
+    <text x="0" y="90" font-family="'DM Serif Display', Georgia, serif" font-size="44" font-weight="bold" fill="#FAF7EF">Amla for Hair Growth</text>
+    <text x="0" y="140" font-family="'DM Serif Display', Georgia, serif" font-size="30" fill="#DCE7D6">Traditional Uses &amp; Practical Scalp Care</text>
+
+    <text x="0" y="200" font-family="'Inter', sans-serif" font-size="16" fill="#DCE7D6" opacity="0.9">Ascorbic acid bioflavonoids, Pitta pacification, and follicle proliferation.</text>
+    <text x="0" y="235" font-family="'Inter', sans-serif" font-size="14" fill="#7BB33A">By Dr. Ananya Sharma (BAMS) • 6 min read</text>
+  </g>
+</svg>

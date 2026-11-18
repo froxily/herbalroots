@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <radialGradient id="neemBg" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#FAF7EF" />
+      <stop offset="65%" stop-color="#F2EBDD" />
+      <stop offset="100%" stop-color="#D7E7D5" />
+    </radialGradient>
+    <linearGradient id="neemGlass" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#143D1A" />
+      <stop offset="30%" stop-color="#2D6B36" />
+      <stop offset="50%" stop-color="#4F9B5B" />
+      <stop offset="70%" stop-color="#2D6B36" />
+      <stop offset="100%" stop-color="#0E2D13" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="800" fill="url(#neemBg)" />
+  <circle cx="400" cy="400" r="280" fill="none" stroke="#DCE7D6" stroke-width="2" stroke-dasharray="4 6" opacity="0.6" />
+
+  <!-- Serrated Neem Leaves -->
+  <g id="neemLeaves">
+    <!-- Left Branch -->
+    <path d="M 120 480 Q 220 440 280 430" stroke="#183D2B" stroke-width="3" fill="none" />
+    <!-- Leaf 1 -->
+    <path d="M 160 460 C 140 430 180 400 200 440 Z" fill="#527A50" />
+    <!-- Leaf 2 -->
+    <path d="M 200 440 C 190 400 240 390 240 430 Z" fill="#6E986C" />
+    <!-- Leaf 3 -->
+    <path d="M 235 435 C 230 380 280 390 270 430 Z" fill="#527A50" />
+
+    <!-- Right Branch -->
+    <path d="M 680 480 Q 580 440 520 430" stroke="#183D2B" stroke-width="3" fill="none" />
+    <path d="M 640 460 C 660 430 620 400 600 440 Z" fill="#527A50" />
+    <path d="M 600 440 C 610 400 560 390 560 430 Z" fill="#6E986C" />
+    <path d="M 565 435 C 570 380 520 390 530 430 Z" fill="#527A50" />
+  </g>
+
+  <!-- Bottle Drop Shadow -->
+  <ellipse cx="400" cy="670" rx="110" ry="22" fill="#183D2B" opacity="0.22" filter="blur(10px)" />
+
+  <!-- Slender Elixir Bottle -->
+  <g>
+    <rect x="320" y="290" width="160" height="340" rx="36" fill="url(#neemGlass)" />
+    <rect x="336" y="310" width="12" height="300" rx="6" fill="#FFFFFF" opacity="0.3" />
+
+    <path d="M 368 290 L 368 220 L 432 220 L 432 290 Z" fill="url(#neemGlass)" />
+    <rect x="360" y="210" width="80" height="18" rx="6" fill="#183D2B" />
+
+    <!-- Cap & Dropper -->
+    <rect x="366" y="150" width="68" height="60" rx="6" fill="#252B25" />
+    <path d="M 382 150 C 382 120 418 120 418 150 Z" fill="#183D2B" />
+
+    <!-- Label -->
+    <rect x="338" y="370" width="124" height="200" rx="8" fill="#FAF7EF" />
+    <rect x="344" y="376" width="112" height="188" rx="6" fill="none" stroke="#527A50" stroke-width="1" />
+
+    <circle cx="400" cy="405" r="12" fill="#183D2B" />
+    <text x="400" y="432" font-family="'DM Serif Display', Georgia, serif" font-size="10" font-weight="bold" fill="#183D2B" text-anchor="middle" letter-spacing="1">HERBALROOTS</text>
+
+    <line x1="360" y1="442" x2="440" y2="442" stroke="#527A50" stroke-width="1" />
+
+    <text x="400" y="464" font-family="'DM Serif Display', Georgia, serif" font-size="15" font-weight="bold" fill="#183D2B" text-anchor="middle">NIMBA</text>
+    <text x="400" y="482" font-family="'DM Serif Display', Georgia, serif" font-size="13" fill="#527A50" text-anchor="middle">Clarifying Scalp</text>
+    <text x="400" y="497" font-family="'Inter', sans-serif" font-size="6.5" font-weight="bold" fill="#B86D4B" text-anchor="middle" letter-spacing="1">PURIFYING ELIXIR</text>
+
+    <text x="400" y="520" font-family="'Inter', sans-serif" font-size="6" fill="#6D756B" text-anchor="middle">Neem • Karanja • Tea Tree</text>
+    <text x="400" y="532" font-family="'Inter', sans-serif" font-size="6" fill="#527A50" text-anchor="middle">Dandruff &amp; Flake Soothing</text>
+
+    <line x1="365" y1="542" x2="435" y2="542" stroke="#DCE7D6" stroke-width="1" />
+    <text x="400" y="554" font-family="'Inter', sans-serif" font-size="6.5" font-weight="bold" fill="#183D2B" text-anchor="middle">50 ml / 1.69 fl. oz.</text>
+  </g>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="shikCardBg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#FAF7EF" />
+      <stop offset="100%" stop-color="#EAE0D2" />
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#shikCardBg)" />
+
+  <!-- Shikakai Dried Pods Cluster -->
+  <g transform="translate(180, 180)">
+    <!-- Pod 1 -->
+    <path d="M 60 220 C 100 140 180 120 230 160 C 270 140 330 170 310 230 C 330 270 250 310 190 280 C 140 310 70 270 60 220 Z" fill="#5A2E16" />
+    <path d="M 80 220 C 130 160 200 180 230 220 C 260 200 300 220 290 250" stroke="#7E4726" stroke-width="3" fill="none" />
+
+    <!-- Pod 2 -->
+    <path d="M 220 280 C 260 200 340 190 380 230 C 430 260 380 320 310 320 Z" fill="#44210E" />
+
+    <!-- Pod 3 in background -->
+    <path d="M 120 160 C 180 110 240 120 260 160 Z" fill="#381A0B" opacity="0.7" />
+  </g>
+
+  <text x="400" y="100" font-family="'DM Serif Display', Georgia, serif" font-size="28" font-weight="bold" fill="#183D2B" text-anchor="middle">SHIKAKAI (FRUIT FOR HAIR)</text>
+  <text x="400" y="130" font-family="'Inter', sans-serif" font-size="14" font-weight="500" fill="#527A50" text-anchor="middle" letter-spacing="1.5">ACACIA CONCINNA • NATURAL SAPONINS</text>
+</svg>

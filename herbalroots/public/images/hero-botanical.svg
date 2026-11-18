@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1200" width="100%" height="100%">
+  <defs>
+    <radialGradient id="heroBg" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#FAF7EF" />
+      <stop offset="60%" stop-color="#F2EBDD" />
+      <stop offset="100%" stop-color="#DCE7D6" />
+    </radialGradient>
+    <linearGradient id="heroGlass" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4A260F" />
+      <stop offset="30%" stop-color="#8E4F22" />
+      <stop offset="50%" stop-color="#B86D4B" />
+      <stop offset="70%" stop-color="#8E4F22" />
+      <stop offset="100%" stop-color="#3A1D0B" />
+    </linearGradient>
+    <linearGradient id="woodComb" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7B4219" />
+      <stop offset="100%" stop-color="#552B13" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="1200" fill="url(#heroBg)" />
+
+  <!-- Botanical Sunlight Glow -->
+  <circle cx="500" cy="550" r="380" fill="#FAF7EF" opacity="0.8" />
+  <circle cx="500" cy="550" r="420" fill="none" stroke="#DCE7D6" stroke-width="2" stroke-dasharray="6 8" />
+
+  <!-- Traditional Neem Wood Comb -->
+  <g id="woodenComb" transform="translate(620, 680) rotate(-35)">
+    <!-- Comb spine -->
+    <rect x="0" y="0" width="220" height="45" rx="10" fill="url(#woodComb)" />
+    <!-- Comb teeth -->
+    <rect x="15" y="45" width="8" height="95" rx="3" fill="#6E3B1C" />
+    <rect x="35" y="45" width="8" height="95" rx="3" fill="#6E3B1C" />
+    <rect x="55" y="45" width="8" height="95" rx="3" fill="#6E3B1C" />
+    <rect x="75" y="45" width="8" height="95" rx="3" fill="#6E3B1C" />
+    <rect x="95" y="45" width="8" height="95" rx="3" fill="#6E3B1C" />
+    <rect x="115" y="45" width="8" height="95" rx="3" fill="#6E3B1C" />
+    <rect x="135" y="45" width="8" height="95" rx="3" fill="#6E3B1C" />
+    <rect x="155" y="45" width="8" height="95" rx="3" fill="#6E3B1C" />
+    <rect x="175" y="45" width="8" height="95" rx="3" fill="#6E3B1C" />
+    <rect x="195" y="45" width="8" height="95" rx="3" fill="#6E3B1C" />
+  </g>
+
+  <!-- Brass Katori with Ayurvedic Oil -->
+  <g transform="translate(180, 780)">
+    <ellipse cx="100" cy="50" rx="90" ry="32" fill="#B38B34" />
+    <ellipse cx="100" cy="46" rx="82" ry="26" fill="#D4AF37" />
+    <ellipse cx="100" cy="45" rx="74" ry="22" fill="#E2A03F" opacity="0.9" />
+    <!-- Droplet reflection -->
+    <circle cx="85" cy="42" r="5" fill="#FFFFFF" opacity="0.6" />
+  </g>
+
+  <!-- Amla Berries & Hibiscus Petals -->
+  <circle cx="340" cy="850" r="32" fill="#7BB33A" />
+  <circle cx="335" cy="845" r="8" fill="#FFFFFF" opacity="0.4" />
+  <circle cx="380" cy="860" r="28" fill="#6B9E30" />
+
+  <!-- Amber Apothecary Oil Bottle (Center) -->
+  <g transform="translate(380, 260)">
+    <ellipse cx="120" cy="520" rx="110" ry="24" fill="#183D2B" opacity="0.25" filter="blur(12px)" />
+    <!-- Bottle body -->
+    <rect x="30" y="160" width="180" height="340" rx="34" fill="url(#heroGlass)" />
+    <rect x="48" y="180" width="16" height="300" rx="8" fill="#FFFFFF" opacity="0.25" />
+    <!-- Bottle neck -->
+    <path d="M 85 160 L 85 90 L 155 90 L 155 160 Z" fill="url(#heroGlass)" />
+    <!-- Neck band -->
+    <rect x="78" y="85" width="84" height="15" rx="4" fill="#252B25" />
+    <!-- Dropper bulb & pipette cap -->
+    <rect x="84" y="35" width="72" height="50" rx="8" fill="#183D2B" />
+    <path d="M 100 35 C 100 5 140 5 140 35 Z" fill="#252B25" />
+
+    <!-- Label -->
+    <rect x="52" y="240" width="136" height="190" rx="8" fill="#FAF7EF" stroke="#527A50" stroke-width="1" />
+    <circle cx="120" cy="275" r="12" fill="#183D2B" />
+    <text x="120" y="304" font-family="'DM Serif Display', Georgia, serif" font-size="9" font-weight="bold" fill="#183D2B" text-anchor="middle" letter-spacing="1">HERBALROOTS</text>
+    <line x1="75" y1="314" x2="165" y2="314" stroke="#B86D4B" stroke-width="1" />
+    <text x="120" y="336" font-family="'DM Serif Display', Georgia, serif" font-size="14" font-weight="bold" fill="#183D2B" text-anchor="middle">KESHYA</text>
+    <text x="120" y="352" font-family="'DM Serif Display', Georgia, serif" font-size="13" fill="#527A50" text-anchor="middle">Bhringraj Oil</text>
+    <text x="120" y="372" font-family="'Inter', sans-serif" font-size="6" fill="#6D756B" text-anchor="middle">Kshirapak Vidhi • Pure Sesame</text>
+    <text x="120" y="410" font-family="'Inter', sans-serif" font-size="6.5" font-weight="bold" fill="#183D2B" text-anchor="middle">100 ml / 3.38 fl. oz.</text>
+  </g>
+
+  <!-- Lush Green Ayurvedic Leaves Left & Top -->
+  <g id="lushLeaves">
+    <path d="M 100 200 C 50 300 120 420 220 380 C 180 300 200 200 100 200 Z" fill="#527A50" opacity="0.9" />
+    <path d="M 200 140 C 260 220 250 340 340 310 C 310 240 280 160 200 140 Z" fill="#6E986C" opacity="0.85" />
+    <path d="M 850 200 C 900 300 830 420 730 380 C 770 300 750 200 850 200 Z" fill="#527A50" opacity="0.9" />
+  </g>
+</svg>

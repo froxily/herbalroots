@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <defs>
+    <linearGradient id="foodsBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#183D2B" />
+      <stop offset="60%" stop-color="#3A2D1A" />
+      <stop offset="100%" stop-color="#1A180E" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#foodsBg)" />
+
+  <g transform="translate(860, 320)">
+    <!-- Bowls of sprouted lentils & seeds -->
+    <ellipse cx="0" cy="50" rx="120" ry="45" fill="#B38B34" />
+    <ellipse cx="0" cy="45" rx="110" ry="38" fill="#D4AF37" />
+    <!-- Sprouted moong & sesame dots -->
+    <circle cx="-40" cy="40" r="10" fill="#7BB33A" />
+    <circle cx="0" cy="35" r="8" fill="#252B25" />
+    <circle cx="40" cy="42" r="10" fill="#7BB33A" />
+    <circle cx="20" cy="45" r="8" fill="#252B25" />
+    <circle cx="-20" cy="48" r="9" fill="#E2A03F" />
+  </g>
+
+  <g transform="translate(100, 200)">
+    <rect x="0" y="0" width="120" height="30" rx="15" fill="#B38B34" />
+    <text x="60" y="20" font-family="'Inter', sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.5">NUTRITION</text>
+
+    <text x="0" y="90" font-family="'DM Serif Display', Georgia, serif" font-size="44" font-weight="bold" fill="#FAF7EF">Foods for Healthy Hair</text>
+    <text x="0" y="140" font-family="'DM Serif Display', Georgia, serif" font-size="30" fill="#FAF7EF">Iron, Protein and Scalp Nutrition</text>
+
+    <text x="0" y="200" font-family="'Inter', sans-serif" font-size="16" fill="#DCE7D6" opacity="0.9">Why ferritin dictates anagen longevity, Indian superfoods, and nutrient triaging.</text>
+    <text x="0" y="235" font-family="'Inter', sans-serif" font-size="14" fill="#D4AF37">By Dr. Ananya Sharma (BAMS) • 7 min read</text>
+  </g>
+</svg>

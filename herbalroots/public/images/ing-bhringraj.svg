@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bhrCardBg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#FAF7EF" />
+      <stop offset="100%" stop-color="#DCE7D6" />
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#bhrCardBg)" />
+  
+  <circle cx="400" cy="360" r="180" fill="#FAF7EF" stroke="#DCE7D6" stroke-width="2" opacity="0.7" />
+
+  <!-- Creeping Bhringraj Vine with leaves -->
+  <g transform="translate(100, 100)">
+    <!-- Main stem -->
+    <path d="M 120 380 Q 250 250 400 300 Q 520 340 550 220" stroke="#3D5A32" stroke-width="5" fill="none" stroke-linecap="round" />
+
+    <!-- Lanceolate serrated leaves -->
+    <path d="M 230 310 C 160 270 170 190 250 170 C 270 230 260 290 230 310 Z" fill="#527A50" />
+    <path d="M 230 310 Q 200 240 250 170" stroke="#DCE7D6" stroke-width="2" fill="none" opacity="0.6" />
+
+    <path d="M 310 275 C 360 220 440 230 430 310 C 370 310 330 295 310 275 Z" fill="#6E986C" />
+    <path d="M 310 275 Q 380 265 430 310" stroke="#DCE7D6" stroke-width="2" fill="none" opacity="0.6" />
+
+    <path d="M 450 315 C 440 380 500 420 540 370 C 530 320 480 305 450 315 Z" fill="#527A50" />
+
+    <!-- Small White Daisy-like Florets (Hallmark of Eclipta Alba) -->
+    <!-- Flower 1 -->
+    <g transform="translate(250, 170)">
+      <circle cx="0" cy="0" r="8" fill="#F4CA42" />
+      <!-- White petals -->
+      <ellipse cx="0" cy="-15" rx="4" ry="9" fill="#FFFFFF" />
+      <ellipse cx="11" cy="-11" rx="4" ry="9" fill="#FFFFFF" transform="rotate(45 11 -11)" />
+      <ellipse cx="15" cy="0" rx="4" ry="9" fill="#FFFFFF" transform="rotate(90 15 0)" />
+      <ellipse cx="11" cy="11" rx="4" ry="9" fill="#FFFFFF" transform="rotate(135 11 11)" />
+      <ellipse cx="0" cy="15" rx="4" ry="9" fill="#FFFFFF" />
+      <ellipse cx="-11" cy="11" rx="4" ry="9" fill="#FFFFFF" transform="rotate(225 -11 11)" />
+      <ellipse cx="-15" cy="0" rx="4" ry="9" fill="#FFFFFF" transform="rotate(270 -15 0)" />
+      <ellipse cx="-11" cy="-11" rx="4" ry="9" fill="#FFFFFF" transform="rotate(315 -11 -11)" />
+    </g>
+
+    <!-- Flower 2 -->
+    <g transform="translate(420, 210)">
+      <circle cx="0" cy="0" r="7" fill="#F4CA42" />
+      <ellipse cx="0" cy="-12" rx="3.5" ry="8" fill="#FFFFFF" />
+      <ellipse cx="12" cy="0" rx="3.5" ry="8" fill="#FFFFFF" transform="rotate(90 12 0)" />
+      <ellipse cx="0" cy="12" rx="3.5" ry="8" fill="#FFFFFF" />
+      <ellipse cx="-12" cy="0" rx="3.5" ry="8" fill="#FFFFFF" transform="rotate(90 -12 0)" />
+    </g>
+  </g>
+
+  <text x="400" y="100" font-family="'DM Serif Display', Georgia, serif" font-size="28" font-weight="bold" fill="#183D2B" text-anchor="middle">BHRINGRAJ (KING OF HAIR)</text>
+  <text x="400" y="130" font-family="'Inter', sans-serif" font-size="14" font-weight="500" fill="#527A50" text-anchor="middle" letter-spacing="1.5">ECLIPTA ALBA • KESHRAJA</text>
+</svg>

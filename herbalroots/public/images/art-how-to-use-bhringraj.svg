@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bhringrajBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#112D20" />
+      <stop offset="50%" stop-color="#183D2B" />
+      <stop offset="100%" stop-color="#23533B" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bhringrajBg)" />
+
+  <g transform="translate(860, 290)">
+    <!-- Amber Bottle & Warm Droplet -->
+    <rect x="-50" y="-80" width="100" height="200" rx="20" fill="#E2A03F" opacity="0.85" />
+    <rect x="-35" y="-130" width="70" height="50" rx="8" fill="#FAF7EF" />
+    <path d="M -20 -130 C -20 -160 20 -160 20 -130 Z" fill="#252B25" />
+    <!-- Oil Droplet -->
+    <ellipse cx="90" cy="110" rx="16" ry="24" fill="#F4CA42" opacity="0.9" />
+    <!-- Leaves -->
+    <path d="M -120 40 C -180 80 -140 180 -60 140 Z" fill="#6E986C" />
+  </g>
+
+  <g transform="translate(100, 200)">
+    <rect x="0" y="0" width="180" height="30" rx="15" fill="#527A50" />
+    <text x="90" y="20" font-family="'Inter', sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.5">HAIR CARE ROUTINES</text>
+
+    <text x="0" y="90" font-family="'DM Serif Display', Georgia, serif" font-size="44" font-weight="bold" fill="#FAF7EF">How to Use Bhringraj Oil</text>
+    <text x="0" y="140" font-family="'DM Serif Display', Georgia, serif" font-size="30" fill="#DCE7D6">Application Methods and Weekly Routine</text>
+
+    <text x="0" y="200" font-family="'Inter', sans-serif" font-size="16" fill="#DCE7D6" opacity="0.9">5-step warming and fingertip application, reading mineral oil labels, and wash frequency.</text>
+    <text x="0" y="235" font-family="'Inter', sans-serif" font-size="14" fill="#6E986C">By Dr. Ananya Sharma (BAMS) • 7 min read</text>
+  </g>
+</svg>

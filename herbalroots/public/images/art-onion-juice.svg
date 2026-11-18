@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <defs>
+    <linearGradient id="onionBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A1C2C" />
+      <stop offset="60%" stop-color="#2D111A" />
+      <stop offset="100%" stop-color="#1A0A0F" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#onionBg)" />
+
+  <g transform="translate(850, 300)">
+    <!-- Red Onion Silhouette -->
+    <ellipse cx="0" cy="0" rx="140" ry="120" fill="#8E2D4A" />
+    <ellipse cx="0" cy="0" rx="120" ry="100" fill="#A8395A" />
+    <ellipse cx="0" cy="0" rx="90" ry="75" fill="#C44B6F" />
+    <ellipse cx="0" cy="0" rx="60" ry="50" fill="#FAF7EF" />
+    <ellipse cx="0" cy="0" rx="30" ry="25" fill="#C44B6F" />
+    <!-- Sprout tip -->
+    <path d="M 0 -120 Q -10 -170 -30 -190 Q 0 -160 5 -120 Z" fill="#6E986C" />
+  </g>
+
+  <g transform="translate(100, 200)">
+    <rect x="0" y="0" width="120" height="30" rx="15" fill="#A8395A" />
+    <text x="60" y="20" font-family="'Inter', sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.5">HAIR FALL</text>
+
+    <text x="0" y="90" font-family="'DM Serif Display', Georgia, serif" font-size="44" font-weight="bold" fill="#FAF7EF">Onion Juice for Hair Fall</text>
+    <text x="0" y="140" font-family="'DM Serif Display', Georgia, serif" font-size="30" fill="#EEDDD4">Evidence, Limitations &amp; Safe Scalp Usage</text>
+
+    <text x="0" y="200" font-family="'Inter', sans-serif" font-size="16" fill="#DCE7D6" opacity="0.9">Clinical reality of dietary sulfur vs. risks of severe contact dermatitis.</text>
+    <text x="0" y="235" font-family="'Inter', sans-serif" font-size="14" fill="#C44B6F">By Dr. Ananya Sharma (BAMS) • 7 min read</text>
+  </g>
+</svg>

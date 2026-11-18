@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="fenCardBg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#FAF7EF" />
+      <stop offset="100%" stop-color="#EFE6D4" />
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#fenCardBg)" />
+
+  <!-- Fenugreek Leaves & Golden Methi Seeds Spoon -->
+  <g transform="translate(200, 180)">
+    <!-- Brass Spoon Bowl -->
+    <ellipse cx="200" cy="220" rx="120" ry="60" fill="#B38B34" />
+    <ellipse cx="200" cy="216" rx="110" ry="52" fill="#D4AF37" />
+    
+    <!-- Cluster of geometric golden fenugreek seeds -->
+    <g fill="#E2A03F" stroke="#C88426" stroke-width="1">
+      <polygon points="140,200 152,190 162,202 150,212" />
+      <polygon points="170,195 184,185 194,198 180,208" />
+      <polygon points="205,190 220,180 230,194 215,204" />
+      <polygon points="238,198 250,188 260,200 248,210" />
+      <polygon points="155,220 168,210 178,222 165,232" />
+      <polygon points="190,215 204,205 214,218 200,228" />
+      <polygon points="225,215 238,205 248,218 235,228" />
+    </g>
+
+    <!-- Trifoliate green methi leaves -->
+    <g transform="translate(200, 80)">
+      <ellipse cx="-40" cy="40" rx="18" ry="32" fill="#527A50" transform="rotate(-35 -40 40)" />
+      <ellipse cx="0" cy="15" rx="18" ry="32" fill="#6E986C" />
+      <ellipse cx="40" cy="40" rx="18" ry="32" fill="#527A50" transform="rotate(35 40 40)" />
+      <path d="M 0 50 L 0 100" stroke="#3D5A32" stroke-width="3" />
+    </g>
+  </g>
+
+  <text x="400" y="100" font-family="'DM Serif Display', Georgia, serif" font-size="28" font-weight="bold" fill="#183D2B" text-anchor="middle">FENUGREEK (METHI)</text>
+  <text x="400" y="130" font-family="'Inter', sans-serif" font-size="14" font-weight="500" fill="#B86D4B" text-anchor="middle" letter-spacing="1.5">TRIGONELLA FOENUM-GRAECUM • LECITHIN &amp; PROTEIN</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="hibCardBg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#FAF7EF" />
+      <stop offset="100%" stop-color="#EEDDD4" />
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#hibCardBg)" />
+
+  <!-- Crimson Hibiscus Blossom with Leaves -->
+  <g transform="translate(240, 160)">
+    <!-- Leaves in background -->
+    <path d="M 60 280 C 10 220 50 140 140 160 C 120 220 120 270 60 280 Z" fill="#527A50" />
+    <path d="M 280 280 C 330 220 290 140 200 160 C 220 220 220 270 280 280 Z" fill="#6E986C" />
+
+    <!-- Flower 5 overlapping petals -->
+    <path d="M 170 120 C 120 40 20 80 70 160 C 30 210 100 290 160 240 C 210 290 300 240 260 170 C 310 110 240 40 180 100 Z" fill="#B82E38" />
+    <path d="M 170 130 C 130 60 40 90 85 155 C 50 200 110 260 160 220 C 200 260 275 220 245 165 C 285 115 225 60 175 110 Z" fill="#D33845" opacity="0.85" />
+
+    <!-- Pistil -->
+    <path d="M 165 170 Q 210 130 265 80" stroke="#E2A03F" stroke-width="6" fill="none" stroke-linecap="round" />
+    <circle cx="265" cy="80" r="8" fill="#F4CA42" />
+    <circle cx="250" cy="90" r="5" fill="#F4CA42" />
+    <circle cx="270" cy="72" r="4" fill="#F4CA42" />
+  </g>
+
+  <text x="400" y="100" font-family="'DM Serif Display', Georgia, serif" font-size="28" font-weight="bold" fill="#183D2B" text-anchor="middle">HIBISCUS (JAPA PUSHPA)</text>
+  <text x="400" y="130" font-family="'Inter', sans-serif" font-size="14" font-weight="500" fill="#B82E38" text-anchor="middle" letter-spacing="1.5">HIBISCUS ROSA-SINENSIS • CUTICLE MOISTURE</text>
+</svg>

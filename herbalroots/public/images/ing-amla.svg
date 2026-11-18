@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="amlaCardBg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#FAF7EF" />
+      <stop offset="100%" stop-color="#DCE7D6" />
+    </radialGradient>
+    <radialGradient id="berryLight" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#D4F0AE" />
+      <stop offset="50%" stop-color="#88C442" />
+      <stop offset="100%" stop-color="#497B1A" />
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#amlaCardBg)" />
+  
+  <!-- Wooden Bowl / Mortar with Amla -->
+  <ellipse cx="400" cy="480" rx="180" ry="40" fill="#183D2B" opacity="0.2" filter="blur(8px)" />
+  <ellipse cx="400" cy="460" rx="160" ry="50" fill="#6E3B1C" />
+  <ellipse cx="400" cy="450" rx="145" ry="40" fill="#4A260F" />
+
+  <!-- Center cluster of Amla Berries -->
+  <circle cx="340" cy="420" r="45" fill="url(#berryLight)" />
+  <circle cx="330" cy="405" r="12" fill="#FFFFFF" opacity="0.45" />
+
+  <circle cx="450" cy="410" r="50" fill="url(#berryLight)" />
+  <circle cx="440" cy="395" r="14" fill="#FFFFFF" opacity="0.45" />
+
+  <circle cx="395" cy="380" r="54" fill="url(#berryLight)" />
+  <circle cx="385" cy="365" r="15" fill="#FFFFFF" opacity="0.5" />
+
+  <!-- Sliced Amla Half -->
+  <circle cx="410" cy="450" r="38" fill="#B0E278" />
+  <circle cx="410" cy="450" r="34" fill="#C6EFA0" />
+  <!-- Amla segment lines -->
+  <line x1="410" y1="416" x2="410" y2="484" stroke="#72AA30" stroke-width="1.5" />
+  <line x1="376" y1="450" x2="444" y2="450" stroke="#72AA30" stroke-width="1.5" />
+  <circle cx="410" cy="450" r="12" fill="#588B20" />
+
+  <!-- Amla Feathered Leaves Branch -->
+  <path d="M 220 280 Q 320 220 420 260" stroke="#447318" stroke-width="3" fill="none" />
+  <ellipse cx="260" cy="255" rx="7" ry="15" fill="#7BB33A" transform="rotate(-30 260 255)" />
+  <ellipse cx="290" cy="245" rx="7" ry="15" fill="#7BB33A" transform="rotate(-20 290 245)" />
+  <ellipse cx="320" cy="240" rx="7" ry="15" fill="#7BB33A" transform="rotate(-10 320 240)" />
+  <ellipse cx="350" cy="242" rx="7" ry="15" fill="#7BB33A" transform="rotate(5 350 242)" />
+  <ellipse cx="380" cy="250" rx="7" ry="15" fill="#7BB33A" transform="rotate(20 380 250)" />
+
+  <text x="400" y="160" font-family="'DM Serif Display', Georgia, serif" font-size="28" font-weight="bold" fill="#183D2B" text-anchor="middle">AMLA (INDIAN GOOSEBERRY)</text>
+  <text x="400" y="190" font-family="'Inter', sans-serif" font-size="14" font-weight="500" fill="#527A50" text-anchor="middle" letter-spacing="1.5">PHYLLANTHUS EMBLICA • DHATRI</text>
+</svg>

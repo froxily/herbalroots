@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="neemCardBg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#FAF7EF" />
+      <stop offset="100%" stop-color="#DCE7D6" />
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#neemCardBg)" />
+
+  <!-- Botanical branch of fresh serrated neem leaves -->
+  <g transform="translate(150, 160)">
+    <path d="M 50 350 Q 250 200 480 180" stroke="#183D2B" stroke-width="4" fill="none" stroke-linecap="round" />
+    
+    <!-- Pairs of falcate, serrated leaflets -->
+    <path d="M 120 300 C 90 260 140 210 180 260 Z" fill="#527A50" />
+    <path d="M 140 320 C 130 370 200 370 190 310 Z" fill="#6E986C" />
+
+    <path d="M 210 250 C 180 200 240 160 270 210 Z" fill="#527A50" />
+    <path d="M 230 270 C 220 320 290 320 280 260 Z" fill="#6E986C" />
+
+    <path d="M 310 210 C 290 160 350 120 370 180 Z" fill="#527A50" />
+    <path d="M 330 230 C 330 280 390 270 380 220 Z" fill="#6E986C" />
+
+    <path d="M 410 185 C 400 130 460 100 470 160 Z" fill="#527A50" />
+    <!-- Terminal leaflet -->
+    <path d="M 480 180 C 530 160 550 200 490 205 Z" fill="#6E986C" />
+
+    <!-- Small white neem blossoms & green drupes -->
+    <circle cx="280" cy="190" r="12" fill="#72B868" opacity="0.9" />
+    <circle cx="340" cy="160" r="10" fill="#72B868" opacity="0.9" />
+  </g>
+
+  <text x="400" y="100" font-family="'DM Serif Display', Georgia, serif" font-size="28" font-weight="bold" fill="#183D2B" text-anchor="middle">NEEM (PURIFYING NIMBA)</text>
+  <text x="400" y="130" font-family="'Inter', sans-serif" font-size="14" font-weight="500" fill="#527A50" text-anchor="middle" letter-spacing="1.5">AZADIRACHTA INDICA • ARISHTA</text>
+</svg>

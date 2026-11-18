@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <defs>
+    <linearGradient id="dandruffBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#143D1A" />
+      <stop offset="60%" stop-color="#1D4A24" />
+      <stop offset="100%" stop-color="#0E2312" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#dandruffBg)" />
+
+  <g transform="translate(850, 280)">
+    <!-- Neem leaves & water ripples -->
+    <circle cx="0" cy="50" r="140" fill="none" stroke="#527A50" stroke-width="2" opacity="0.4" />
+    <circle cx="0" cy="50" r="100" fill="none" stroke="#DCE7D6" stroke-width="1.5" stroke-dasharray="6 6" opacity="0.3" />
+    <path d="M -80 80 C -120 40 -80 -30 0 0 Z" fill="#6E986C" />
+    <path d="M 0 0 C 40 -60 110 -20 70 40 Z" fill="#527A50" />
+    <path d="M 70 40 C 130 50 120 130 50 110 Z" fill="#72B868" />
+  </g>
+
+  <g transform="translate(100, 200)">
+    <rect x="0" y="0" width="120" height="30" rx="15" fill="#416340" />
+    <text x="60" y="20" font-family="'Inter', sans-serif" font-size="12" font-weight="bold" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.5">DANDRUFF</text>
+
+    <text x="0" y="90" font-family="'DM Serif Display', Georgia, serif" font-size="44" font-weight="bold" fill="#FAF7EF">Dandruff Home Remedies</text>
+    <text x="0" y="140" font-family="'DM Serif Display', Georgia, serif" font-size="30" fill="#DCE7D6">What Helps and What Irritates Your Scalp</text>
+
+    <text x="0" y="200" font-family="'Inter', sans-serif" font-size="16" fill="#DCE7D6" opacity="0.9">Why heavy oiling feeds Malassezia yeast, lemon risks, and clarifying neem rinses.</text>
+    <text x="0" y="235" font-family="'Inter', sans-serif" font-size="14" fill="#6E986C">By Dr. Ananya Sharma (BAMS) • 7 min read</text>
+  </g>
+</svg>

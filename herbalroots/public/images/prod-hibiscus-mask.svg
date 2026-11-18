@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <radialGradient id="maskBg" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#FAF7EF" />
+      <stop offset="65%" stop-color="#F2EBDD" />
+      <stop offset="100%" stop-color="#EEDDD4" />
+    </radialGradient>
+    <linearGradient id="ceramicJar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ECE5D8" />
+      <stop offset="50%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#D8CFC0" />
+    </linearGradient>
+    <linearGradient id="woodLid" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6E3B1C" />
+      <stop offset="50%" stop-color="#9C5A30" />
+      <stop offset="100%" stop-color="#552B13" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="800" fill="url(#maskBg)" />
+  <circle cx="400" cy="400" r="280" fill="none" stroke="#DCE7D6" stroke-width="2" stroke-dasharray="4 6" opacity="0.6" />
+
+  <!-- Vibrant Red Hibiscus Blossom -->
+  <g id="hibiscusFlower" transform="translate(140, 480) scale(0.9)">
+    <path d="M 120 70 C 80 10 0 40 40 100 C 10 140 60 200 110 160 C 150 200 220 170 190 110 C 230 70 180 0 130 50 Z" fill="#B82E38" />
+    <path d="M 120 75 C 90 30 30 50 60 95 C 40 125 75 170 115 145 C 145 175 195 155 175 110 C 205 75 170 25 130 65 Z" fill="#D33845" opacity="0.8" />
+    <!-- Yellow pistil -->
+    <path d="M 115 105 Q 150 80 200 50" stroke="#E2A03F" stroke-width="5" fill="none" stroke-linecap="round" />
+    <circle cx="200" cy="50" r="6" fill="#F4CA42" />
+    <circle cx="190" cy="55" r="4" fill="#F4CA42" />
+    <circle cx="205" cy="45" r="3" fill="#F4CA42" />
+  </g>
+
+  <!-- Green Fenugreek Leaves & Seeds right -->
+  <g id="methiSeeds" transform="translate(560, 560)">
+    <ellipse cx="40" cy="50" rx="8" ry="14" fill="#527A50" transform="rotate(-30 40 50)" />
+    <ellipse cx="65" cy="40" rx="8" ry="14" fill="#6E986C" transform="rotate(15 65 40)" />
+    <ellipse cx="80" cy="65" rx="8" ry="14" fill="#527A50" transform="rotate(45 80 65)" />
+    <!-- Golden methi seeds -->
+    <polygon points="10,80 18,72 25,82 17,90" fill="#E2A03F" />
+    <polygon points="30,95 38,88 44,97 36,104" fill="#C88426" />
+    <polygon points="5,105 13,98 20,107 12,114" fill="#E2A03F" />
+  </g>
+
+  <!-- Jar Drop Shadow -->
+  <ellipse cx="400" cy="660" rx="170" ry="26" fill="#183D2B" opacity="0.22" filter="blur(12px)" />
+
+  <!-- Jar Body -->
+  <g>
+    <!-- Ceramic Tub -->
+    <rect x="250" y="340" width="300" height="280" rx="40" fill="url(#ceramicJar)" />
+    <!-- Subtle specular sheen -->
+    <rect x="275" y="355" width="20" height="245" rx="10" fill="#FFFFFF" opacity="0.4" />
+
+    <!-- Wooden Lid -->
+    <rect x="235" y="275" width="330" height="75" rx="20" fill="url(#woodLid)" />
+    <rect x="235" y="335" width="330" height="15" fill="#44210E" />
+
+    <!-- Jar Front Label -->
+    <rect x="290" y="390" width="220" height="180" rx="10" fill="#FAF7EF" stroke="#527A50" stroke-width="1" />
+
+    <circle cx="400" cy="420" r="13" fill="#183D2B" />
+    <path d="M 400 413 C 400 413 404 416 404 420 C 404 423 402 425 400 426 C 398 425 396 423 396 420 C 396 416 400 413 400 413 Z" fill="#DCE7D6" />
+
+    <text x="400" y="445" font-family="'DM Serif Display', Georgia, serif" font-size="10" font-weight="bold" fill="#183D2B" text-anchor="middle" letter-spacing="1">HERBALROOTS</text>
+    
+    <line x1="330" y1="456" x2="470" y2="456" stroke="#B86D4B" stroke-width="1" />
+
+    <text x="400" y="478" font-family="'DM Serif Display', Georgia, serif" font-size="16" font-weight="bold" fill="#B82E38" text-anchor="middle">JAPA PUSHPA</text>
+    <text x="400" y="498" font-family="'DM Serif Display', Georgia, serif" font-size="14" fill="#183D2B" text-anchor="middle">Deep Moisture Hair Mask</text>
+
+    <text x="400" y="522" font-family="'Inter', sans-serif" font-size="6.5" fill="#6D756B" text-anchor="middle">Red Hibiscus Petals • Sprouted Methi</text>
+    <text x="400" y="534" font-family="'Inter', sans-serif" font-size="6" fill="#527A50" text-anchor="middle">Rich Kokum Butter Conditioning</text>
+
+    <line x1="340" y1="544" x2="460" y2="544" stroke="#DCE7D6" stroke-width="1" />
+    <text x="400" y="556" font-family="'Inter', sans-serif" font-size="7" font-weight="bold" fill="#183D2B" text-anchor="middle">150 g / 5.29 oz.</text>
+  </g>
+</svg>

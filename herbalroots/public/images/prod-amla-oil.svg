@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <radialGradient id="amlaBg" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#FAF7EF" />
+      <stop offset="65%" stop-color="#F2EBDD" />
+      <stop offset="100%" stop-color="#E2EDDE" />
+    </radialGradient>
+    <linearGradient id="amlaGlass" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2D5A27" />
+      <stop offset="30%" stop-color="#4B8B43" />
+      <stop offset="50%" stop-color="#72B868" />
+      <stop offset="70%" stop-color="#4B8B43" />
+      <stop offset="100%" stop-color="#1B3A17" />
+    </linearGradient>
+    <radialGradient id="amlaBerry" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#C2E59C" />
+      <stop offset="60%" stop-color="#7BB33A" />
+      <stop offset="100%" stop-color="#447318" />
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="800" fill="url(#amlaBg)" />
+  <circle cx="400" cy="400" r="280" fill="none" stroke="#DCE7D6" stroke-width="2" stroke-dasharray="4 6" opacity="0.6" />
+
+  <!-- Amla Berries in background and foreground -->
+  <g id="amlaBerries">
+    <!-- Left berry -->
+    <circle cx="230" cy="610" r="48" fill="url(#amlaBerry)" />
+    <path d="M 230 562 Q 230 610 230 658 M 182 610 Q 230 610 278 610" stroke="#FAF7EF" stroke-width="1" opacity="0.3" fill="none" />
+    <circle cx="220" cy="595" r="12" fill="#FFFFFF" opacity="0.4" />
+    
+    <!-- Berry left secondary -->
+    <circle cx="170" cy="640" r="38" fill="url(#amlaBerry)" opacity="0.9" />
+
+    <!-- Right berry -->
+    <circle cx="580" cy="620" r="50" fill="url(#amlaBerry)" />
+    <path d="M 580 570 Q 580 620 580 670 M 530 620 Q 580 620 630 620" stroke="#FAF7EF" stroke-width="1" opacity="0.3" fill="none" />
+    <circle cx="568" cy="605" r="14" fill="#FFFFFF" opacity="0.4" />
+
+    <!-- Delicate feathered leaves (Amla branch) -->
+    <path d="M 160 380 Q 240 330 310 320" stroke="#447318" stroke-width="3" fill="none" />
+    <ellipse cx="200" cy="345" rx="8" ry="16" fill="#7BB33A" transform="rotate(-30 200 345)" />
+    <ellipse cx="230" cy="335" rx="8" ry="16" fill="#7BB33A" transform="rotate(-20 230 335)" />
+    <ellipse cx="260" cy="328" rx="8" ry="16" fill="#7BB33A" transform="rotate(-10 260 328)" />
+
+    <path d="M 640 380 Q 560 330 490 320" stroke="#447318" stroke-width="3" fill="none" />
+    <ellipse cx="600" cy="345" rx="8" ry="16" fill="#7BB33A" transform="rotate(30 600 345)" />
+    <ellipse cx="570" cy="335" rx="8" ry="16" fill="#7BB33A" transform="rotate(20 570 335)" />
+    <ellipse cx="540" cy="328" rx="8" ry="16" fill="#7BB33A" transform="rotate(10 540 328)" />
+  </g>
+
+  <!-- Bottle shadow -->
+  <ellipse cx="400" cy="670" rx="130" ry="24" fill="#183D2B" opacity="0.2" filter="blur(10px)" />
+
+  <!-- Bottle -->
+  <g>
+    <rect x="300" y="270" width="200" height="370" rx="40" fill="url(#amlaGlass)" />
+    <rect x="320" y="290" width="16" height="330" rx="8" fill="#FFFFFF" opacity="0.3" />
+
+    <path d="M 360 270 L 360 200 L 440 200 L 440 270 Z" fill="url(#amlaGlass)" />
+    <rect x="350" y="190" width="100" height="18" rx="6" fill="#183D2B" />
+
+    <!-- Cap -->
+    <rect x="356" y="130" width="88" height="60" rx="8" fill="#183D2B" />
+    <path d="M 378 130 C 378 95 422 95 422 130 Z" fill="#252B25" />
+
+    <!-- Label -->
+    <rect x="324" y="360" width="152" height="210" rx="8" fill="#FAF7EF" />
+    <rect x="330" y="366" width="140" height="198" rx="6" fill="none" stroke="#527A50" stroke-width="1" />
+
+    <circle cx="400" cy="395" r="14" fill="#183D2B" />
+    <path d="M 400 387 C 400 387 405 391 405 395 C 405 398 402 400 400 401 C 398 400 395 398 395 395 C 395 391 400 387 400 387 Z" fill="#DCE7D6" />
+
+    <text x="400" y="425" font-family="'DM Serif Display', Georgia, serif" font-size="11" font-weight="bold" fill="#183D2B" text-anchor="middle" letter-spacing="1">HERBALROOTS</text>
+    <text x="400" y="437" font-family="'Inter', sans-serif" font-size="6" fill="#6D756B" text-anchor="middle" letter-spacing="1.5">AYURVEDA</text>
+
+    <line x1="355" y1="446" x2="445" y2="446" stroke="#527A50" stroke-width="1" />
+
+    <text x="400" y="465" font-family="'DM Serif Display', Georgia, serif" font-size="14" font-weight="bold" fill="#183D2B" text-anchor="middle">TRIPHALA &amp;</text>
+    <text x="400" y="482" font-family="'DM Serif Display', Georgia, serif" font-size="15" fill="#527A50" text-anchor="middle">Amla Scalp Oil</text>
+    <text x="400" y="497" font-family="'Inter', sans-serif" font-size="7" font-weight="bold" fill="#B86D4B" text-anchor="middle" letter-spacing="1">VITALIZING CARE</text>
+
+    <text x="400" y="520" font-family="'Inter', sans-serif" font-size="6.5" fill="#6D756B" text-anchor="middle">Cold-Pressed Coconut Base</text>
+    <text x="400" y="532" font-family="'Inter', sans-serif" font-size="6" fill="#527A50" text-anchor="middle">Rich in Polyphenols &amp; Tannins</text>
+
+    <line x1="365" y1="544" x2="435" y2="544" stroke="#DCE7D6" stroke-width="1" />
+    <text x="400" y="556" font-family="'Inter', sans-serif" font-size="6.5" font-weight="bold" fill="#183D2B" text-anchor="middle">100 ml / 3.38 fl. oz.</text>
+  </g>
+</svg>

@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="100%" height="100%">
+  <defs>
+    <radialGradient id="shampooBg" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#FAF7EF" />
+      <stop offset="65%" stop-color="#F2EBDD" />
+      <stop offset="100%" stop-color="#DCE7D6" />
+    </radialGradient>
+    <linearGradient id="shampooBottle" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#112D20" />
+      <stop offset="40%" stop-color="#183D2B" />
+      <stop offset="60%" stop-color="#23533B" />
+      <stop offset="100%" stop-color="#0E2319" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="800" fill="url(#shampooBg)" />
+  <circle cx="400" cy="400" r="280" fill="none" stroke="#DCE7D6" stroke-width="2" stroke-dasharray="4 6" opacity="0.6" />
+
+  <!-- Botanical Elements (Reetha pods & Aloe vera slice) -->
+  <g id="reethaElements">
+    <!-- Reetha Soapnut pods -->
+    <circle cx="210" cy="620" r="32" fill="#5A2E16" />
+    <circle cx="210" cy="620" r="26" fill="#753D1C" />
+    <circle cx="202" cy="612" r="8" fill="#FAF7EF" opacity="0.3" />
+
+    <circle cx="255" cy="640" r="26" fill="#4A260F" />
+
+    <!-- Aloe vera stalk -->
+    <path d="M 570 660 Q 620 540 680 470 Q 640 560 620 670 Z" fill="#527A50" />
+    <path d="M 585 660 Q 625 565 675 500" stroke="#72B868" stroke-width="2" fill="none" />
+
+    <!-- Pure bubbles / natural froth -->
+    <circle cx="240" cy="540" r="14" fill="#FFFFFF" opacity="0.5" stroke="#DCE7D6" />
+    <circle cx="260" cy="510" r="8" fill="#FFFFFF" opacity="0.6" stroke="#DCE7D6" />
+    <circle cx="560" cy="530" r="12" fill="#FFFFFF" opacity="0.5" stroke="#DCE7D6" />
+  </g>
+
+  <!-- Bottle Shadow -->
+  <ellipse cx="400" cy="680" rx="140" ry="24" fill="#183D2B" opacity="0.25" filter="blur(12px)" />
+
+  <!-- Pump Bottle -->
+  <g>
+    <!-- Bottle Cylinder -->
+    <rect x="290" y="240" width="220" height="410" rx="36" fill="url(#shampooBottle)" />
+    <!-- Specular highlight -->
+    <rect x="310" y="260" width="16" height="370" rx="8" fill="#FFFFFF" opacity="0.18" />
+
+    <!-- Pump Neck & Mechanism -->
+    <rect x="375" y="180" width="50" height="60" fill="#252B25" />
+    <rect x="360" y="215" width="80" height="15" rx="4" fill="#3D443D" />
+
+    <!-- Pump Head -->
+    <path d="M 360 180 L 440 180 L 440 150 L 320 150 L 320 165 Z" fill="#252B25" />
+    <rect x="315" y="152" width="10" height="10" rx="2" fill="#183D2B" />
+
+    <!-- Label -->
+    <rect x="314" y="310" width="172" height="260" rx="10" fill="#FAF7EF" />
+    <rect x="322" y="318" width="156" height="244" rx="8" fill="none" stroke="#527A50" stroke-width="1" />
+
+    <circle cx="400" cy="350" r="14" fill="#183D2B" />
+    <path d="M 400 342 C 400 342 405 346 405 350 C 405 353 402 355 400 356 C 398 355 395 353 395 350 C 395 346 400 342 400 342 Z" fill="#DCE7D6" />
+
+    <text x="400" y="380" font-family="'DM Serif Display', Georgia, serif" font-size="11" font-weight="bold" fill="#183D2B" text-anchor="middle" letter-spacing="1">HERBALROOTS</text>
+    <text x="400" y="392" font-family="'Inter', sans-serif" font-size="6" fill="#6D756B" text-anchor="middle" letter-spacing="1.5">BOTANICAL CLEANSERS</text>
+
+    <line x1="345" y1="402" x2="455" y2="402" stroke="#B86D4B" stroke-width="1" />
+
+    <text x="400" y="424" font-family="'DM Serif Display', Georgia, serif" font-size="15" font-weight="bold" fill="#183D2B" text-anchor="middle">SHIKAKAI &amp;</text>
+    <text x="400" y="444" font-family="'DM Serif Display', Georgia, serif" font-size="16" fill="#527A50" text-anchor="middle">Reetha Cleanser</text>
+    <text x="400" y="462" font-family="'Inter', sans-serif" font-size="7" font-weight="bold" fill="#B86D4B" text-anchor="middle" letter-spacing="1">SULPHATE-FREE WASH</text>
+
+    <text x="400" y="488" font-family="'Inter', sans-serif" font-size="6.5" fill="#6D756B" text-anchor="middle">Gentle Soapnut Foam • pH 5.5</text>
+    <text x="400" y="502" font-family="'Inter', sans-serif" font-size="6" fill="#527A50" text-anchor="middle">With Aloe Vera &amp; Hydrolyzed Protein</text>
+
+    <line x1="355" y1="520" x2="445" y2="520" stroke="#DCE7D6" stroke-width="1" />
+    <text x="400" y="538" font-family="'Inter', sans-serif" font-size="7" font-weight="bold" fill="#183D2B" text-anchor="middle">200 ml / 6.76 fl. oz.</text>
+  </g>
+</svg>
